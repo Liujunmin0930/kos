@@ -1,0 +1,25 @@
+{
+  "default_target": "greet",
+  "targets": {
+    "greet": {
+      "command": "echo 'Hello from kos! 欢迎使用 kos!'",
+      "working_dir": ".",
+      "env": {}
+    },
+    "date": {
+      "command": "date",
+      "working_dir": ".",
+      "env": {}
+    },
+    "system_info": {
+      "command": "uname -a",
+      "working_dir": ".",
+      "env": {}
+    },
+    "list_files": {
+      "command": "ls -lh",
+      "working_dir": ".",
+      "env": {}
+    }
+  }
+}
