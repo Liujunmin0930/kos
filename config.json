@@ -1,0 +1,15 @@
+{
+  "default_target": "hello",
+  "targets": {
+    "hello": {
+      "command": "echo '你好，世界！(Hello, World!)'",
+      "working_dir": ".",
+      "env": {}
+    },
+    "python_example": {
+      "command": "python3 --version",
+      "working_dir": ".",
+      "env": {}
+    }
+  }
+}
